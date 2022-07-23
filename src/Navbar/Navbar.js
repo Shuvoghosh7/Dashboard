@@ -11,7 +11,7 @@ const Navbar = () => {
 
             </label>}
             <Link className='menu-item' to='/'>HOME</Link>
-            <Link className='menu-item' to='dashboard'>DESHBOARD</Link>
+            <Link className='menu-item' to='/dashboard'>DESHBOARD</Link>
         </div>
     );
 };
