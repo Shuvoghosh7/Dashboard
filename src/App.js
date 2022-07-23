@@ -13,7 +13,7 @@ import Homepage from './Dashboard/DashboardHome/HomePage/Homepage';
 
 function App() {
   return (
-    <div>
+    <div className='bg-[#eef1f5]'>
       <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
