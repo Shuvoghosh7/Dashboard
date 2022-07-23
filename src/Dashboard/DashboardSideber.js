@@ -10,10 +10,11 @@ const DashboardSideber = ( {children}) => {
             </div>
             <div class="drawer-side">
                 <label for="my-drawer-2" class="drawer-overlay"></label>
-                <ul class="menu p-4 overflow-y-auto w-60 bg-blue-600 text-base-content">
+                <ul class="menu p-4 overflow-y-auto w-44 bg-blue-600 text-base-content">
                 <h1>Acadomi</h1>
                     {/*   Sidebar content here */}
-                        <li><Link to="/dashboard/student">Students</Link></li>
+                        <li><Link className='bg-transparent text-white' to="/dashboard/student">Students</Link></li>
+                     {/*    <li><a href="/dashboard/student"> Students</a></li> */}
                 </ul>
 
             </div>
