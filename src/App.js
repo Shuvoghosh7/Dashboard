@@ -9,6 +9,7 @@ import TotalCourse from './Dashboard/TotalCourse/TotalCourse';
 import Events from './Dashboard/Events/Events';
 import Finance from './Dashboard/Finance/Finance';
 import Homepage from './Dashboard/DashboardHome/HomePage/Homepage';
+import AddNewSportStudent from './Dashboard/DashboardHome/AddNewSportStudent/AddNewSportStudent';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path='course' element={<TotalCourse/>}/>
         <Route path='events' element={<Events/>}/>
         <Route path='finance' element={<Finance/>}/>
+        <Route path='newSportStudent' element={<AddNewSportStudent/>}/>
         </Route>
       </Routes>
     </div>

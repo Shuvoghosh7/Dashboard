@@ -1,0 +1,29 @@
+.students{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 10px;
+}
+
+.Sport_Student{
+    background-color: white;
+    box-shadow:  6px 6px 21px #8b8b8b,
+             -6px -6px 21px #ffffff;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width: 668px) {
+    .students{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 10px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .students{
+        display: grid;
+        grid-template-columns:1fr;
+        gap: 10px;
+    }
+}

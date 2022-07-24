@@ -27,7 +27,7 @@ const SchoolPerformance = () => {
                 id: "basic-bar"
             },
             xaxis: {
-                categories: [10, 20, 30, 40, 60, 100]
+                categories: [10, 20, 30, 40, 60, 100,120,130]
             }
         },
         series: [
