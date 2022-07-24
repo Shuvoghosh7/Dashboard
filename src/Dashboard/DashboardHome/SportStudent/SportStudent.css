@@ -10,6 +10,14 @@
              -6px -6px 21px #ffffff;
     border-radius: 10px;
 }
+.Exam_Toppers{
+    background-color: white;
+    box-shadow:  6px 6px 21px #8b8b8b,
+             -6px -6px 21px #ffffff;
+    border-radius: 10px;
+   height: 300px;
+    
+}
 
 
 @media only screen and (max-width: 668px) {

@@ -1,0 +1,18 @@
+[
+    {
+        "Roll_No":"0001",
+        "Name": "Amit",
+        "Department": "Science "
+    },
+    {
+        "Roll_No":"0002",
+        "Name": "Sumit",
+        "Department": "Commerce"
+       
+    },
+    {
+        "Roll_No":"0003",
+        "Name": "Rahul",
+        "Department": "Science "
+    }
+]
