@@ -1,0 +1,32 @@
+[
+    {
+        "image":"https://static.generated.photos/vue-static/home/hero/6.png",
+        "Name":"Sjib",
+        "Roll_No":"0001",
+        "Date":"21-jul-2022",
+        "Parent_Name":"Sunil Kumar",
+        "Number":"023457899",
+        "Class":"12",
+        "Grade":"A"
+    },
+    {
+        "image":"https://static.generated.photos/vue-static/home/hero/4.png",
+        "Name":"Puja",
+        "Roll_No":"0002",
+        "Date":"21-jul-2022",
+        "Parent_Name":"Rajek Kumar",
+        "Number":"023457899",
+        "Class":"10",
+        "Grade":"B"
+    },
+    {
+        "image":"https://static.generated.photos/vue-static/home/hero/6.png",
+        "Name":"Poli",
+        "Roll_No":"0003",
+        "Date":"21-jul-2022",
+        "Parent_Name":"Dujia Das",
+        "Number":"023457899",
+        "Class":"11",
+        "Grade":"A"
+    }
+]
