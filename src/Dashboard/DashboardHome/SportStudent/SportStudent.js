@@ -22,7 +22,7 @@ const SportStudent = () => {
                             <th>Name</th>
                             <th>Email</th>
                             <th>Department</th>
-                            <th>JoingDate</th>
+                            <th>Joining_Date</th>
                             <th>Action</th>
                         </tr>
                     </thead>

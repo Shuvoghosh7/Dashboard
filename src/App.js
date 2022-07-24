@@ -9,7 +9,8 @@ import TotalCourse from './Dashboard/TotalCourse/TotalCourse';
 import Events from './Dashboard/Events/Events';
 import Finance from './Dashboard/Finance/Finance';
 import Homepage from './Dashboard/DashboardHome/HomePage/Homepage';
-import AddNewSportStudent from './Dashboard/DashboardHome/AddNewSportStudent/AddNewSportStudent';
+import AddNewSportStudent from './Dashboard/DashboardHome/SportStudent/AddNewSportStudent';
+
 
 
 function App() {

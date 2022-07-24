@@ -4,20 +4,20 @@
         "Name": "Amit",
         "Email": "amit@gmail.com",
         "Department": "Science ",
-        "JoingDate": "12/05/2022"
+        "Joining_Date": "12/05/2022"
     },
     {
         "Roll_No":"0002",
         "Name": "Sumit",
         "Email": "sumit@gmail.com",
         "Department": "Commerce",
-        "JoingDate": "13/07/2021"
+        "Joining_Date": "13/07/2021"
     },
     {
         "Roll_No":"0003",
         "Name": "Rahul",
         "Email": "rahul@gmail.com",
         "Department": "Science ",
-        "JoingDate": "12/05/2022"
+        "Joining_Date": "12/05/2022"
     }
 ]
