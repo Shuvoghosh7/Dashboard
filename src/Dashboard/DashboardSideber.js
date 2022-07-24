@@ -1,5 +1,10 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link} from 'react-router-dom';
+import { AiFillHome } from 'react-icons/ai';
+import { BsFillPersonFill } from 'react-icons/bs';
+import { AiFillRead } from 'react-icons/ai';
+import { BsFillCalendarEventFill } from 'react-icons/bs';
+import {FaMoneyCheckAlt } from 'react-icons/fa';
 const DashboardSideber = ({ children }) => {
     return (
         <div class="drawer drawer-mobile bg-base-200">
@@ -10,24 +15,24 @@ const DashboardSideber = ({ children }) => {
             </div>
             <div class="drawer-side">
                 <label for="my-drawer-2" class="drawer-overlay"></label>
-                <ul class="menu p-4 overflow-y-auto w-44 bg-blue-600 text-base-content">
-                    <h1 className='mb-4'>Acadomi</h1>
+                <ul class="menu p-4 overflow-y-auto w-48 bg-[#5433FF] text-base-content">
+                    <h1 className='mb-4 text-center text-white font-bold text-2xl'>Acadomi</h1>
                     {/*   Sidebar content here */}
-                    <li>
-                        <Link className='bg-transparent text-white' to='/dashboard'>DESHBOARD</Link>
+                    <li className='bg-white rounded-3xl w-52'>
+                        <Link className='bg-transparent text-[#5433FF]' to='/dashboard'> <AiFillHome/>DESHBOARD</Link>
                     </li>
-                    <li><Link className='bg-transparent text-white' to="/dashboard/student">Students</Link></li>
+                    <li><Link className='bg-transparent text-white' to="/dashboard/student"><BsFillPersonFill/> Students</Link></li>
                     <li>
-                        <Link className='bg-transparent text-white' to="/dashboard/teacher">Teachers</Link>
-                    </li>
-                    <li>
-                        <Link className='bg-transparent text-white' to="/dashboard/course">Total Course</Link>
+                        <Link className='bg-transparent text-white' to="/dashboard/teacher"><BsFillPersonFill/>Teachers</Link>
                     </li>
                     <li>
-                        <Link className='bg-transparent text-white' to="/dashboard/events">Events</Link>
+                        <Link className='bg-transparent text-white' to="/dashboard/course">< AiFillRead/>Total Course</Link>
                     </li>
                     <li>
-                        <Link className='bg-transparent text-white' to="/dashboard/finance">Finance</Link>
+                        <Link className='bg-transparent text-white' to="/dashboard/events"><BsFillCalendarEventFill/>Events</Link>
+                    </li>
+                    <li>
+                        <Link className='bg-transparent text-white' to="/dashboard/finance"><FaMoneyCheckAlt/>Finance</Link>
                     </li>
                 </ul>
 

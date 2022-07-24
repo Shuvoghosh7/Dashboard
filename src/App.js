@@ -11,9 +11,6 @@ import Finance from './Dashboard/Finance/Finance';
 import Homepage from './Dashboard/DashboardHome/HomePage/Homepage';
 import AddNewSportStudent from './Dashboard/DashboardHome/SportStudent/AddNewSportStudent';
 import AddNewExamTopper from './Dashboard/DashboardHome/ExamToppers/AddNewExamTopper';
-
-
-
 function App() {
   return (
     <div className='bg-[#eef1f5]'>
