@@ -1,5 +1,6 @@
 import React from 'react';
 import Card from '../Card/Card';
+import NewStudent from '../NewStudent/NewStudent';
 
 import SchoolPerformance from '../SchoolPerformance/SchoolPerformance';
 import SportStudent from '../SportStudent/SportStudent';
@@ -18,7 +19,7 @@ const Homepage = () => {
                 <SportStudent/>
             </div>
             <div>
-                
+                <NewStudent/>
             </div>
         </div>
     );
