@@ -1,9 +1,10 @@
 import React from 'react';
+import BalanceAnalytics from './BalanceAnalytics/BalanceAnalytics';
 
 const Finance = () => {
     return (
         <div>
-            <h1>Add Finance and show</h1>
+            <BalanceAnalytics/>
         </div>
     );
 };
