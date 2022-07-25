@@ -25,9 +25,7 @@ const DashboardSideber = ({ children }) => {
                     <li>
                         <Link className='bg-transparent text-white' to="/dashboard/teacher"><BsFillPersonFill/>Teachers</Link>
                     </li>
-                    <li>
-                        <Link className='bg-transparent text-white' to="/dashboard/course">< AiFillRead/>Total Course</Link>
-                    </li>
+                    
                     <li>
                         <Link className='bg-transparent text-white' to="/dashboard/events"><BsFillCalendarEventFill/>Events</Link>
                     </li>
