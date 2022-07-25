@@ -9,11 +9,11 @@
     },
     {
         "image":"https://static.generated.photos/vue-static/home/hero/4.png",
-        "Name":"Sjib",
+        "Name":"Puja",
         "Date_Of_Admit":"21-jul-2022",
         "Number":"023457899",
         "Fees":"UNPADE",
-        "Class":"12"
+        "Class":"11"
     },
     {
         "image":"https://static.generated.photos/vue-static/home/hero/6.png",
@@ -21,6 +21,6 @@
         "Date_Of_Admit":"21-jul-2022",
         "Number":"023457899",
         "Fees":"PADE",
-        "Class":"12"
+        "Class":"10"
     }
 ]

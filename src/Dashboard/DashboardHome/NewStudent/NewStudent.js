@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { CgMathPlus } from 'react-icons/cg';
 import ShowNewStudentData from './ShowNewStudentData';
+import './NewStudent.css'
 const NewStudent = () => {
     const [newStudents, setNewStudents] = useState([])
     console.log(newStudents)
@@ -11,10 +12,10 @@ const NewStudent = () => {
             .then(data => setNewStudents(data))
     }, [])
     return (
-        <div>
-            <p className='my-5 text-2xl font-bold'>New Students List</p>
+        <div className='new-students'>
+            <p className='my-6 text-2xl font-bold ml-2'>New Students List</p>
             <div>
-                <Link to='/dashboard/addExamTopper' className='btn btn-primary ml-2'>Add New <CgMathPlus className='text-xl ml-2' /></Link>
+                <Link to='/dashboard/addExamTopper' className='btn btn-primary ml-2 mb-4'>Add New Student<CgMathPlus className='text-xl ml-2' /></Link>
             </div>
             <table class="table table-zebra w-full">
                 <thead>
