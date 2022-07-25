@@ -18,7 +18,7 @@ const Students = () => {
                     <input type="text" placeholder="Search" class="input input-bordered rounded-3xl" />
                 </div>
                 <div>
-                    <Link to='/dashboard/addExamTopper' className='btn btn-primary ml-2'>Add New <CgMathPlus className='text-xl ml-2' /></Link>
+                    <Link to='/dashboard/addStudent' className='btn btn-primary ml-2'>Add New <CgMathPlus className='text-xl ml-2' /></Link>
                 </div>
             </div>
             <table class="table table-zebra w-full">
