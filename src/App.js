@@ -12,6 +12,7 @@ import AddNewSportStudent from './Dashboard/DashboardHome/SportStudent/AddNewSpo
 import AddNewExamTopper from './Dashboard/DashboardHome/ExamToppers/AddNewExamTopper';
 import TeacherAddForm from './Dashboard/Teachers/TeacherAddForm';
 import StudentAddForm from './Dashboard/Students/StudentAddForm';
+import AddNewStudentForm from './Dashboard/DashboardHome/NewStudent/AddNewStudentForm';
 function App() {
   return (
     <div className='bg-[#eef1f5]'>
@@ -27,6 +28,7 @@ function App() {
         <Route path='finance' element={<Finance/>}/>
         <Route path='newSportStudent' element={<AddNewSportStudent/>}/>
         <Route path='addExamTopper' element={<AddNewExamTopper/>}/>
+        <Route path='newStudents' element={<AddNewStudentForm/>}/>
         <Route path='addStudent' element={<StudentAddForm/>}/>
         <Route path='addTeacher' element={<TeacherAddForm/>}/>
         </Route>
