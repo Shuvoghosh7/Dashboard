@@ -19,7 +19,7 @@ const Teachers = () => {
                     <input type="text" placeholder="Search" class="input input-bordered rounded-3xl" />
                 </div>
                 <div>
-                    <Link to='/dashboard/addExamTopper' className='btn btn-primary ml-2'>Add Teacher <CgMathPlus className='text-xl ml-2' /></Link>
+                    <Link to='/dashboard/addTeacher' className='btn btn-primary ml-2'>Add Teacher <CgMathPlus className='text-xl ml-2' /></Link>
                 </div>
             </div>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 gap-6'>

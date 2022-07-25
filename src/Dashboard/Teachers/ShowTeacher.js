@@ -18,6 +18,7 @@ const ShowTeacher = ({ teacher }) => {
                 <p><span className='font-medium'>University:</span> {University_Name}</p>
                 <p><span className='font-medium'>Subject:</span> {Subject}</p>
                 <p><span className='font-medium'>Joining Date:</span> {Joining_Date}</p>
+                <p><span className='font-medium'>Teacher ID: </span>{ID}</p>
                 <p><span className='font-medium'>Email: </span> <span className='text-blue-900'>{Email}</span></p>
                 <p><span className='font-medium'>Number:</span> {Number}</p>
             </div>
