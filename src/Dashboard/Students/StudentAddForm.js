@@ -3,6 +3,7 @@ import React from 'react';
 const StudentAddForm = () => {
     return (
         <div className='lg:mx-20 mx-6 mt-12'>
+            <h1 className='text-center text-3xl font-bold mb-6'>Add New Student</h1>
             <form>
                 <div class="grid lg:grid-cols-2 md:grid-cols-2 md:gap-6 lg:gap-6">
                     <div class="relative z-0 mb-6 w-full group">
