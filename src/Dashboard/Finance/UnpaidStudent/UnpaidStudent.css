@@ -1,0 +1,5 @@
+.Unpaid_Expense{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 10px;
+}

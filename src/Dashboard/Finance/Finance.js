@@ -1,6 +1,7 @@
 import React from 'react';
 import BalanceAnalytics from './BalanceAnalytics/BalanceAnalytics';
 import BlanceCard from './BlanceCard/BlanceCard';
+import UnpaidStudent from './UnpaidStudent/UnpaidStudent';
 
 const Finance = () => {
     return (
@@ -10,6 +11,9 @@ const Finance = () => {
             </div>
             <div>
                 <BalanceAnalytics />
+            </div>
+            <div>
+                <UnpaidStudent/>
             </div>
         </div>
     );

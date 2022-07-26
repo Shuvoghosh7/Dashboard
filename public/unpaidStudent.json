@@ -1,0 +1,23 @@
+[
+    {
+        "image":"https://static.generated.photos/vue-static/home/hero/6.png",
+        "Name":"Sjib",
+        "Roll_No":"0001",
+        "Class":"12",
+        "Blance":"3000"
+    },
+    {
+        "image":"https://static.generated.photos/vue-static/home/hero/4.png",
+        "Name":"Puja",
+        "Roll_No":"0002",
+        "Class":"10",
+        "Blance":"6000"
+    },
+    {
+        "image":"https://static.generated.photos/vue-static/home/hero/6.png",
+        "Name":"Poli",
+        "Roll_No":"0003",
+        "Class":"11",
+        "Blance":"4000"
+    }
+]
