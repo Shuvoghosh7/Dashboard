@@ -14,6 +14,8 @@ import TeacherAddForm from './Dashboard/Teachers/TeacherAddForm';
 import StudentAddForm from './Dashboard/Students/StudentAddForm';
 import AddNewStudentForm from './Dashboard/DashboardHome/NewStudent/AddNewStudentForm';
 import AddUnpadeStudentForm from './Dashboard/Finance/UnpaidStudent/AddUnpadeStudentForm';
+import SchoolExpenseForm from './Dashboard/Finance/SchoolExpense/SchoolExpenseForm';
+
 function App() {
   return (
     <div className='bg-[#eef1f5]'>
@@ -29,10 +31,15 @@ function App() {
         <Route path='finance' element={<Finance/>}/>
         <Route path='newSportStudent' element={<AddNewSportStudent/>}/>
         <Route path='addExamTopper' element={<AddNewExamTopper/>}/>
+
+
         <Route path='newStudents' element={<AddNewStudentForm/>}/>
         <Route path='addStudent' element={<StudentAddForm/>}/>
         <Route path='addTeacher' element={<TeacherAddForm/>}/>
         <Route path='addUnpadeStudent' element={<AddUnpadeStudentForm/>}/>
+        <Route path='addSchoolExpense' element={<SchoolExpenseForm/>}/>
+
+        
         </Route>
       </Routes>
     </div>
