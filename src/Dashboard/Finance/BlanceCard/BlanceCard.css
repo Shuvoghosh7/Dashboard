@@ -1,0 +1,12 @@
+.Blance_Card{
+    background-color: white;
+    box-shadow:  6px 6px 21px #8b8b8b,
+             -6px -6px 21px #ffffff;
+    border-radius: 10px;
+    padding: 30px 25px 30px 25px;
+}
+.money-icon{
+    font-size: 50px;
+    margin-right: 10px;
+    
+}

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Chart from "react-apexcharts";
-
+import './BalanceAnalytics.css'
 const BalanceAnalytics = () => {
     const [finaceData, setfinaceData] = useState({
 
@@ -53,8 +53,8 @@ const BalanceAnalytics = () => {
         },
     })
     return (
-        <div className='lg:mx-12 md:mx-5 mx-3 Balance Analytics'>
-            <h1 className='ml-5'>School Performance</h1>
+        <div className='lg:mx-8 md:mx-5 mx-3 Balance_Analytics'>
+            <h1 className='ml-5 text-2xl font-bold'>School Balance Analytics</h1>
             <Chart
                 options={finaceData.options}
                 series={finaceData.series}

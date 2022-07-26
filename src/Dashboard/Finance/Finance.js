@@ -1,10 +1,16 @@
 import React from 'react';
 import BalanceAnalytics from './BalanceAnalytics/BalanceAnalytics';
+import BlanceCard from './BlanceCard/BlanceCard';
 
 const Finance = () => {
     return (
         <div>
-            <BalanceAnalytics/>
+            <div>
+                <BlanceCard/>
+            </div>
+            <div>
+                <BalanceAnalytics />
+            </div>
         </div>
     );
 };
