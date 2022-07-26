@@ -3,6 +3,7 @@ import './UnpaidStudent.css'
 import { CgMathPlus } from 'react-icons/cg';
 import { Link } from "react-router-dom";
 import ShowUnpaidStudentData from './ShowUnpaidStudentData';
+import SchoolExpense from '../SchoolExpense/SchoolExpense';
 const UnpaidStudent = () => {
     const [unpaidStudents, setUnpaidStudents] = useState([])
     useEffect(() => {
@@ -11,8 +12,8 @@ const UnpaidStudent = () => {
             .then(data => setUnpaidStudents(data))
     }, [])
     return (
-        <div className='Unpaid_Expense mx-8 mt-6'>
-            <div class="overflow-x-auto Sport_Student">
+        <div className='Unpaid_Expense mt-6 grid grid-cols-2 gap-6'>
+            <div class="overflow-x-auto unpaid_Student">
                 <p className='text-2xl font-bold mt-3 mb-5 ml-2'>Unpaid Student List</p>
                 <Link to='/dashboard/addUnpadeStudent' className='btn btn-primary ml-2'>Add New <CgMathPlus className='text-xl ml-2' /></Link>
                 <table class="table table-zebra w-full">
@@ -42,7 +43,10 @@ const UnpaidStudent = () => {
                 </table>
 
             </div>
-
+            {/* School Expense */}
+            <div>
+                <SchoolExpense/>
+            </div>
 
         </div>
     );

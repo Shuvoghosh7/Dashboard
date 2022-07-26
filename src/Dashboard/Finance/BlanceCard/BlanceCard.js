@@ -3,7 +3,7 @@ import './BlanceCard.css'
 import { FcMoneyTransfer } from 'react-icons/fc';
 const BlanceCard = () => {
     return (
-        <div className='Blance_Card mx-8 mt-5 mb-8 lg:flex justify-between items-center'>
+        <div className='Blance_Card mt-5 mb-8 lg:flex justify-between items-center'>
             <div className='flex items-center'>
                 <div >
                     <FcMoneyTransfer className='money-icon'/>

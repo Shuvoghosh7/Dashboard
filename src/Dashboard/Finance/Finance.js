@@ -5,7 +5,7 @@ import UnpaidStudent from './UnpaidStudent/UnpaidStudent';
 
 const Finance = () => {
     return (
-        <div>
+        <div className='mx-8 mb-5'>
             <div>
                 <BlanceCard/>
             </div>

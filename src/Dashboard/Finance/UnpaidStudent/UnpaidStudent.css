@@ -1,5 +1,13 @@
-.Unpaid_Expense{
-    display: grid;
-    grid-template-columns: 5fr 2fr;
-    gap: 10px;
+
+.unpaid_Student{
+    background-color: white;
+    box-shadow:  6px 6px 21px #8b8b8b,
+             -6px -6px 21px #ffffff;
+    border-radius: 10px;
+}
+.school_expense{
+    background-color: white;
+    box-shadow:  6px 6px 21px #8b8b8b,
+             -6px -6px 21px #ffffff;
+    border-radius: 10px;
 }
