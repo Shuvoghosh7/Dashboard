@@ -3,7 +3,7 @@ import React from 'react';
 const AddUnpadeStudentForm = () => {
     return (
         <div className='login-container'>
-            <h1 className='login-title'>Add New Student</h1>
+            <h1 className='login-title'>Add Unpade Student</h1>
             <form className="login-form">
                 <input type="file" placeholder="Enter Student Image" />
                 <input type="text" placeholder="Enter Student Student Name" />
