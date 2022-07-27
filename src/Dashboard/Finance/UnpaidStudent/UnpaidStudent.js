@@ -12,7 +12,7 @@ const UnpaidStudent = () => {
             .then(data => setUnpaidStudents(data))
     }, [])
     return (
-        <div className='Unpaid_Expense mt-6 grid grid-cols-2 gap-6'>
+        <div className='Unpaid_Expense mt-6 grid lg:grid-cols-2 md:grid-cols-1  grid-cols-1 gap-6'>
             <div class="overflow-x-auto unpaid_Student">
                 <p className='text-2xl font-bold mt-3 mb-5 ml-2'>Unpaid Student List</p>
                 <Link to='/dashboard/addUnpadeStudent' className='btn btn-primary ml-2'>Add New <CgMathPlus className='text-xl ml-2' /></Link>

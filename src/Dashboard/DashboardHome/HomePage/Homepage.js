@@ -18,7 +18,7 @@ const Homepage = () => {
             <div className='mt-6'>
                 <SportStudent/>
             </div>
-            <div>
+            <div className='lg:mt-6 mt-12'>
                 <NewStudent/>
             </div>
         </div>

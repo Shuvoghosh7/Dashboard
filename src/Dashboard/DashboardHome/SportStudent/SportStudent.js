@@ -19,7 +19,7 @@ const SportStudent = () => {
             <div class="overflow-x-auto Sport_Student">
                 <p className='text-2xl font-bold mt-3 mb-5 ml-2'>Sport Student List</p>
                 <Link to='/dashboard/newSportStudent' className='btn btn-primary ml-2'>Add New <CgMathPlus className='text-xl ml-2' /></Link>
-                <table class="table table-zebra w-full">
+                <table className='table table-zebra w-full'>
                     <thead  >
                         <tr>
                             <th></th>

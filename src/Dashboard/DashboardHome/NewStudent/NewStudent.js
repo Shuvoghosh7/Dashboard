@@ -12,12 +12,12 @@ const NewStudent = () => {
             .then(data => setNewStudents(data))
     }, [])
     return (
-        <div className='new-students'>
+        <div className='new-students overflow-x-auto'>
             <p className='my-6 text-2xl font-bold ml-2'>New Students List</p>
             <div>
                 <Link to='/dashboard/newStudents' className='btn btn-primary ml-2 mb-4'>Add New Student<CgMathPlus className='text-xl ml-2' /></Link>
             </div>
-            <table class="table table-zebra w-full">
+            <table className="table table-zebra w-full ">
                 <thead>
                     <tr>
                         <th></th>
