@@ -16,29 +16,38 @@ import AddNewStudentForm from './Dashboard/DashboardHome/NewStudent/AddNewStuden
 import AddUnpadeStudentForm from './Dashboard/Finance/UnpaidStudent/AddUnpadeStudentForm';
 import SchoolExpenseForm from './Dashboard/Finance/SchoolExpense/SchoolExpenseForm';
 
+
+import Tests from './Dashboard/Tests/Tests';
+import Personaldetails from './Dashboard/Tests/Personaldetails';
+import CurrentIshue from './Dashboard/Tests/CurrentIshue';
+
 function App() {
   return (
     <div className='bg-[#eef1f5]'>
-      <Navbar/>
+      <Navbar />
       <Routes>
-        <Route path='/' element={<Home/>}/>
-        <Route path='/dashboard' element={<Dashboard/>}>
-        <Route path='/dashboard' element={<Homepage/>}/>
-  
-        <Route path='student' element={<Students/>}/>
-        <Route path='teacher' element={<Teachers/>}/>
-        <Route path='finance' element={<Finance/>}/>
-        <Route path='newSportStudent' element={<AddNewSportStudent/>}/>
-        <Route path='addExamTopper' element={<AddNewExamTopper/>}/>
+        <Route path='/' element={<Home />} />
+        <Route path='/dashboard' element={<Dashboard />}>
+          <Route path='/dashboard' element={<Homepage />} />
+
+          <Route path='student' element={<Students />} />
+          <Route path='teacher' element={<Teachers />} />
+          <Route path='finance' element={<Finance />} />
+          <Route path='newSportStudent' element={<AddNewSportStudent />} />
+          <Route path='addExamTopper' element={<AddNewExamTopper />} />
 
 
-        <Route path='newStudents' element={<AddNewStudentForm/>}/>
-        <Route path='addStudent' element={<StudentAddForm/>}/>
-        <Route path='addTeacher' element={<TeacherAddForm/>}/>
-        <Route path='addUnpadeStudent' element={<AddUnpadeStudentForm/>}/>
-        <Route path='addSchoolExpense' element={<SchoolExpenseForm/>}/>
+          <Route path='newStudents' element={<AddNewStudentForm />} />
+          <Route path='addStudent' element={<StudentAddForm />} />
+          <Route path='addTeacher' element={<TeacherAddForm />} />
+          <Route path='addUnpadeStudent' element={<AddUnpadeStudentForm />} />
+          <Route path='addSchoolExpense' element={<SchoolExpenseForm />} />
 
-        
+          <Route path='tests' element={<Tests />}>
+            <Route path='Personal' element={<Personaldetails/>} />
+            <Route path='currentIshue' element={<CurrentIshue/>} />
+          </Route>
+
         </Route>
       </Routes>
     </div>
