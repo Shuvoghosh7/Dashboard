@@ -17,9 +17,9 @@ import AddUnpadeStudentForm from './Dashboard/Finance/UnpaidStudent/AddUnpadeStu
 import SchoolExpenseForm from './Dashboard/Finance/SchoolExpense/SchoolExpenseForm';
 
 
-import Tests from './Dashboard/Tests/Tests';
+/* import Tests from './Dashboard/Tests/Tests';
 import Personaldetails from './Dashboard/Tests/Personaldetails';
-import CurrentIshue from './Dashboard/Tests/CurrentIshue';
+import CurrentIshue from './Dashboard/Tests/CurrentIshue'; */
 
 function App() {
   return (
@@ -43,10 +43,10 @@ function App() {
           <Route path='addUnpadeStudent' element={<AddUnpadeStudentForm />} />
           <Route path='addSchoolExpense' element={<SchoolExpenseForm />} />
 
-          <Route path='tests' element={<Tests />}>
+          {/* <Route path='tests' element={<Tests />}>
             <Route path='Personal' element={<Personaldetails/>} />
             <Route path='currentIshue' element={<CurrentIshue/>} />
-          </Route>
+          </Route> */}
 
         </Route>
       </Routes>
